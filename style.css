@@ -1,0 +1,61 @@
+*{
+    font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url('https://github.com/pwlive/fullstackwebdevelopment/blob/main/Assignment_01(HTML+CSS)/assets/pexels-maxyne-barcel-10402282%201.png?raw=true');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:95vh;
+    width:95vw;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.navigation{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    color:yellow
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0px;
+}
+h1{ 
+    display: inline;
+    text-align: center;
+    font-size: 50px;
+    color:yellow;
+}
+button{
+    background-color: rgb(211, 71, 71);
+    border:0px;
+    border-radius: 0%;
+    color:white;
+    font-weight: bold;
+    padding:10px;
+}
+.navigation img{
+    height: 50px;
+    width:120px;
+}
+footer img{
+    display: flex;
+    height:100px;
+    width: 100px;
+    justify-content: flex-end;
+}
+.arrow{
+    float:right;
+}
